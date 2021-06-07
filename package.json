@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/ahmad1091/NFT-App/issues"
   },
-  "homepage": "https://github.com/ahmad1091/NFT-App#readme"
+  "homepage": "https://github.com/ahmad1091/NFT-App#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.1.0",
+    "@truffle/hdwallet-provider": "^1.4.0"
+  }
 }
