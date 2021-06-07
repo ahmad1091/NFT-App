@@ -1,0 +1,19 @@
+{
+  "name": "nft-app",
+  "version": "1.0.0",
+  "description": "Use ERC721 to build NFT App with Koa framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmad1091/NFT-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahmad1091/NFT-App/issues"
+  },
+  "homepage": "https://github.com/ahmad1091/NFT-App#readme"
+}
