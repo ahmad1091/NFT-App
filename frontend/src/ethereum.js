@@ -5,6 +5,7 @@ const getBlockchain = ()=>{
   return  new Promise((resolve,reject)=>{
         window.addEventListener('load',async ()=>{
             if (window.ethereum) {
+                console.log('NFTTTT',NFT);
                 //first we enable the etherum connector form window.etherum
                await window.ethereum.enable();
                //second we get the procvider from the ethers instance
@@ -24,3 +25,5 @@ const getBlockchain = ()=>{
         })
     })
 }
+
+export default getBlockchain;
