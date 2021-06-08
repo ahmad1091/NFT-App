@@ -4,7 +4,7 @@ contract NFT is ERC721{
 uint public nextTokenId;
 address public admin;
 
-constructor() ERC721('My NFT','NFT'){
+constructor() ERC721('your NFT','NFT'){
     admin = msg.sender;
 }
 
@@ -15,7 +15,7 @@ function mint(address to)external{
 }
 
 function _baseURI() pure internal override returns (string memory){
-    return 'https://mighty-journey-50262.herokuapp.com/';
+    return 'https://shielded-peak-43757.herokuapp.com/';
 }
 
 }
