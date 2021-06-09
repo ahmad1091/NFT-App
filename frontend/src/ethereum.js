@@ -1,24 +1,23 @@
 import { ethers, Contract } from 'ethers';
 import NFT from './contracts/NFT.json';
 
-const getBlockchain =   (address) =>{
-const add = address;
-console.log('||||||||||||||-----0',new Date().getSeconds());
-  return new Promise((resolve, reject) => {
+const getBlockchain =  async (address) =>{
+  const nftAddress = address;
+return new Promise((resolve, reject) => {
       if(window.ethereum) {(async () =>{
-        console.log('||||||||||||||-----1',new Date().getSeconds());
-
         if (!window.ethereum.isConnected()) {
+          console.log('tring to enable the connector');
           await window.ethereum.enable();
         } 
 
         const provider = new ethers.providers.Web3Provider(window.ethereum);
         const signer = provider.getSigner();
         const nft = new Contract(
-          add,
+          nftAddress,
           NFT.abi,
           signer
         );
+        
         console.log('helloooooooo',nft)
         resolve({nft});
       })()
