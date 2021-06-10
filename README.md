@@ -2,7 +2,7 @@
 Use ERC721 to build NFT App with Koa framework.
 
 ## Abstract:
----
+
 NFT(Non-fungible token).
 
 “Non-fungible” more or less means that it’s unique and can’t be replaced with something else. For example, a bitcoin is fungible — trade one for another bitcoin, and you’ll have exactly the same thing. A one-of-a-kind trading card, however, is non-fungible. If you traded it for a different card, you’d have something completely different.
@@ -25,7 +25,7 @@ This token allows the ownership of unique digital assets. Its biggest implicatio
 ![ERC20 vs ERC721](./images/ERC-standards.png "ERC-standards")
 
 ## Features:
----
+
 * User can search about NFT using token address & token ID.
 * User can mint NFT tokens using token address & receiving address.
 * Users can search about NFT using account address.
