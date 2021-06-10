@@ -29,3 +29,5 @@ This token allows the ownership of unique digital assets. Its biggest implicatio
 * User can search about NFT using token address & token ID.
 * User can mint NFT tokens using token address & receiving address.
 * Users can search about NFT using account address.
+
+## Link to the app: [NFT-App](https://relaxed-northcutt-5a8571.netlify.app/)
